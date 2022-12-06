@@ -50,7 +50,12 @@ body {
 header {
     display: block;
 }
-
+i.fa-star{
+    color: #E97F02;
+}
+i.fa-star .dark{
+    color: gray;
+}
 .header-top-bar {
     background-color: #f5f5f5;
 }
@@ -351,6 +356,7 @@ section {
     width: 100%;
     max-width: 1200px;
     margin: auto;
+    min-width: 980px;
 }
 .home-slider {
     position: relative;
@@ -1425,4 +1431,209 @@ section {
     background-color: #f1f1f1;
     padding: 15px 0;
     text-align: center;
+}
+/* --------------------------- */
+.banner {
+    position: relative;
+    background: #000;
+}
+.banner.v2 {
+    background: transparent;
+}
+.banner.v2 .item_banner {
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+.banner.v2 .item_banner img {
+    width: 1200px;
+    height: auto;
+    max-height: 300px;
+    margin: auto;
+}
+.quick-link {
+    background-color: #0f0004;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+.quick-link.v2 {
+    background: #fff;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-gap: 6px;
+    max-width: 1200px;
+    margin: auto;
+}
+.quick-link a {
+    align-items: center;
+    border-radius: 40px;
+    background-color: #fff;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    margin: 0 10px;
+    padding: 0 14px;
+}
+.quick-link.v2 a {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    margin: 0;
+    text-align: center;
+}
+.quick-link.v2 a:hover {
+    border: 1px solid #2f80ed;
+}
+.quick-link.v2 a.viewmore_manu {
+    font-size: 12px;
+    color: #2f80ed;
+}
+.content {
+    background-color: #eaeaea;
+}
+.menu-top {
+    background-color: #0f0004;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 20px;
+    transition: .3s;
+}
+.menu-top.v2 {
+    background: #fff;
+}
+.menu-top .nav-item {
+    color: #fff;
+    font-size: 16px;
+    line-height: 17px;
+    transition: .3s;
+    margin: 0 30px;
+}
+.menu-top.v2 .nav-item .box-icon {
+    height: 70px;
+    width: 70px;
+    background: #f1f1f1;
+    transition: .3s;
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 6px;
+}
+.menu-top.v2 .nav-item .box-icon:hover {
+    background: #ffe500;
+}
+.menu-top.v2 .nav-item .box-icon img {
+    width: 70%;
+    height: auto;
+}
+.menu-top.v2 .nav-item p {
+    color: #333;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+}
+.deal {
+    padding: 30px 0 50px;
+}
+#dealsoc.v2 {
+    background-color: #eaeaea;
+}
+.deal-main.v2 {
+    background-image: unset;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+#dealsoc.v2 .block__banner {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.block__banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.deal__title {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.deal-main.v2 .deal__title span {
+    color: #e80505;
+}
+.deal-main.v2 .deal__title {
+    color: #333;
+    z-index: 2;
+    position: relative;
+}
+.listproduct .item-img img {
+    max-height: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    transition: .3s;
+    max-width: 100%;
+    width: auto;
+}
+.block-btn {
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+    color: #333;
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 20px auto 0;
+    max-width: 340px;
+    padding: 10px 10px;
+    text-align: center;
+    width: 100%;
+}
+.block__tab {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 12px;
+}
+.block__tab li {
+    margin: 0 6px;
+}
+.block__tab li a {
+    background-color: #fff;
+    border-radius: 20px;
+    color: #333;
+    display: block;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 10px 10px;
+}
+.block__tab li.active a {
+    background-color: #ffe500;
+    font-weight: bold;
+}
+.block {
+    padding-bottom: 30px;
+}
+.item-ss {
+    color: #2f80ed;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 7px;
+    display: block;
+}
+.item-rating p {
+    display: inline-block;
+}
+.listproduct .price-old {
+    color: #666;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: line-through;
 }
