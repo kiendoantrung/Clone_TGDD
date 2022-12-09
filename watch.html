@@ -1,0 +1,1716 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Thế giới di động</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon/Logo Thế Giới Di Động - MWG.png">
+    <script src="https://kit.fontawesome.com/84015f1a75.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <style>
+        .watch-type {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px 0;
+            border-radius: 4px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .watch-type.orient {
+            background: #212325;
+        }
+
+        .watch-type .bgw-type {
+            width: 27.5%;
+        }
+
+        .watch-type aside {
+            margin-left: -70px;
+            padding: 0 15px 0 0;
+            width: calc(72.5% + 70px);
+        }
+
+        .box-top {
+            margin: 15px 0 15px;
+        }
+
+        .watch-type .gradient {
+            position: relative;
+            max-width: 650px;
+        }
+
+        .watch-type .tabs-type {
+            float: left;
+            max-width: 100%;
+            white-space: nowrap;
+            overflow-x: auto;
+        }
+
+        .watch-type .tab-link {
+            cursor: pointer;
+            display: inline-block;
+            vertical-align: middle;
+            border-radius: 20px;
+            padding: 8px 10px;
+            color: #f1f1f1;
+            border: 1px solid #fff;
+            position: relative;
+            margin-right: 10px;
+            height: 36px;
+            text-align: center;
+        }
+
+        .watch-type .tab-link.active-tab,
+        .watch-type .tab-link:hover {
+            box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+            background-color: #fff;
+            border: none;
+            color: #000;
+            font-weight: bold;
+        }
+
+        .watch-type .prt-watch {
+            margin: 10px 0 0;
+        }
+
+        .listproduct.slide-dongho {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 10px;
+            z-index: 0;
+            min-height: 300px;
+        }
+
+        .see-all {
+            float: right;
+            border-radius: 4px;
+            margin: 10px 0;
+            position: relative;
+            padding-right: 10px;
+            color: #fff;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            width: max-content;
+            max-width: 260px;
+            float: right;
+        }
+
+        .see-all {
+            position: absolute;
+            right: 15px;
+            top: 15px;
+        }
+        .listproduct.slide-dongho {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 0;
+    min-height: 300px;
+}
+.listproduct {
+    border: none;
+}
+
+.block__banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.deal-main.v2 .deal__title {
+    z-index: 2;
+    position: relative;
+    color: #fff;
+}
+.deal__title {
+    
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 58px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.deal-main.v2 .deal__title span {
+    color: #ffd400;
+}
+.menu-top.v2 .nav-item .box-icon img {
+    height: auto;
+    width: 85px;
+}
+.menu-top.v2 .nav-item p {
+    color: #333;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    margin-top: 20px;
+}
+        .lazyloaded-1{
+    display : inline;
+    font-size: 14px;
+    line-height : 18px;
+}
+
+        .collection {
+    display: block;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.collection span {
+    display: inline-block;
+    overflow: hidden;
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+}
+.collection li a img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+div.owl-item {
+    border-radius: 6px;
+    color: #288ad6;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+}
+.application {
+    display: flex;
+    margin-top: 40px;
+}
+
+carousel .owl-dots.disabled {
+    display: none;
+}
+.owl-theme .owl-dots .owl-dot {
+    display: none;
+    zoom: 1;
+}
+.application .col1 {
+    padding-right: 15px;
+    width: 120%;
+}
+.application .ttl-main {
+    margin : 0px 0px 10px;
+}
+.application .title-layout {
+    font-weight: bold;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+
+.application .spl-item {
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.application .spl-item__img {
+    position: relative;
+    width: 120px;
+    height: 70px;
+    border-radius: 4px;
+}
+.application .spl-item__content {
+    padding-left: 10px;
+    width: calc(100% - 120px);
+}
+.application .spl-item-title {
+    font-size: 12px;
+    line-height: 17px;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+}
+.application .spl-item-hour {
+    color: #999;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.title-layout {
+    font-size: 18px;
+    line-height: 16px;
+    margin-bottom: 20px;
+    color: #333333;
+    display: inline-block;
+    margin: 0px 20px 0px 0px;
+}
+
+.application .readmore-txt {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 8px;
+}
+.application .col1__ct {
+    display: flex;
+    height: 390px;
+}
+
+.application .ttl-main {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.application .spl-item {
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+li{
+    list-style: none;
+}
+.spl-item__img img{
+    width: 120px;
+    height:70px;
+    border-radius: 4px;
+}
+.lst-iclabel {
+    position: absolute;
+    z-index: 1;
+    bottom: 185px;
+    left: 15px;
+    display: flex;
+    gap: 5px;
+    height: 50px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="header-top-bar">
+        <div class="banner-media" style="background-color: rgb(255, 231, 0);">
+            <div class="media-slider">
+                <div class="item">
+                    <a aria-label="slide" href="">
+                        <img src="img\picture2.png"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="header  ">
+        <div class="header__top">
+            <div>
+                <a href="" class="header__logo">
+                    <i><img src="img/logo.png"></i>
+                </a>
+                <a href="" class="header__address">
+                    Xem giá, tồn kho tại:
+                    <span>Hà Nội <i class="fa-solid fa-sort-down"></i></span>
+                </a>
+                <form action="" class="header__search">
+                    <input type="text" class="input-search" placeholder="Bạn tìm gì..." maxlength="100">
+                    <button type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <div id="search-result"></div>
+                </form>
+                <a href="" class="name-order">
+                    Lịch sử đơn hàng
+                </a>
+                <a href="" class="header__cart menu-info">
+                    <div class="box-cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="cart-number"></span>
+                    </div>
+                    <span>Giỏ hàng</span>
+                </a>
+                <div class="header__listtop">
+                    <div class="divitem">
+                        <a href="">24h<br>Công nghệ</a>
+                    </div>
+                    <div class="bordercol"></div>
+                    <div class="divitem">
+                        <a href="">Hỏi Đáp</a>
+                    </div>
+                    <div class="bordercol"></div>
+                    <div class="divitem">
+                        <a href="">Game App</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__main">
+            <div>
+                <ul class="main-menu">
+                    <li class="">
+                        <a href="">
+                            <i>
+                                <img src="img/icon/icon-phone-96x96-2.png">
+                            </i>
+                            <span class="">Điện thoại</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="">
+                            <i>
+                                <img src="img/icon/icon-laptop-96x96-1.png">
+                            </i>
+                            <span class="">Laptop</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="">
+                            <i>
+                                <img src="img/icon/icon-tablet-96x96-1.png">
+                            </i>
+                            <span class="">Tablet</span>
+                        </a>
+                    </li>
+                    <li class="has-list">
+                        <a href="">
+                            <i>
+                                <img src="img/icon/icon-phu-kien-96x96-1.png">
+                            </i>
+                            <span class="has-child">Phụ kiện</span>
+                        </a>
+                        <div class="navmwg ">
+                            <div class="item-child ">
+                                <strong>
+                                    Phụ kiện di động
+                                </strong>
+                                <a href="">
+                                    <h3>Sạc dự phòng</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Sạc, cáp</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Ốp lưng điện thoại</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Ốp lưng máy tính bảng</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Miếng dán màn hình</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Gậy chụp ảnh, Gimbal</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Giá đỡ điện thoại</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Đế, móc điện thoại</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Túi chống nước</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Túi đựng AirPods</h3>
+                                </a>
+                                <a href="">
+                                    <h3>AirTag, Vỏ bảo vệ AirTag</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Phụ kiện Tablet</h3>
+                                </a>
+                            </div>
+                            <div class="item-child ">
+                                <strong>
+                                    Phụ kiện laptop
+                                </strong>
+                                <a href="">
+                                    <h3>Chuột, bàn phím</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Thiết bị mạng</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Balo, túi chống sốc</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Giá đỡ laptop</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Phần mềm</h3>
+                                </a>
+                            </div>
+                            <div class="item-child ">
+                                <strong>
+                                    Thiết bị nhà thông minh
+                                </strong>
+                                <a href="">
+                                    <h3>Khóa điện tử</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Camera, webcam</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Máy chiếu</h3>
+                                </a>
+                                <a href="">
+                                    <h3>TV Box</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Ổ cắm, bóng đèn thông minh</h3>
+                                </a>
+                            </div>
+                            <div class="item-child ">
+                                <strong>
+                                    Thương hiệu hàng đầu
+                                </strong>
+                                <a href="">
+                                    <h3>Apple</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Samsung</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Sony</h3>
+                                </a>
+                                <a href="">
+                                    <h3>JBL</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Anker</h3>
+                                </a>
+                            </div>
+                            <div class="item-child ">
+                                <strong>
+                                    Thiết bị âm thanh
+                                </strong>
+                                <a href="">
+                                    <h3>Tai nghe</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Loa</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Micro thu âm điện thoại</h3>
+                                </a>
+                            </div>
+                            <div class="item-child ">
+                                <strong>
+                                    Thiết bị lưu trữ
+                                </strong>
+                                <a href="">
+                                    <h3>Ổ cứng di động</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Thẻ nhớ</h3>
+                                </a>
+                                <a href="">
+                                    <h3>USB</h3>
+                                </a>
+                            </div>
+                            <div class="item-child ">
+                                <strong>
+                                    Phụ kiện khác
+                                </strong>
+                                <a href="">
+                                    <h3>Phụ kiện ô tô</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Máy tính cầm tay</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Quạt mini</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Pin tiểu</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="">
+                        <a href="Smartwatch.html">
+                            <i>
+                                <img src="img/icon/icon-smartwatch-96x96-1.png">
+                            </i>
+                            <span class="">Smartwatch</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="">
+                            <i>
+                                <img src="img/icon/watch-icon-96x96.png">
+                            </i>
+                            <span class="">Đồng hồ</span>
+                        </a>
+                    </li>
+                    <li class="show-left">
+                        <a href="">
+                            <i>
+                                <img src="img/icon/icon-header-may-cu-30x30.png">
+                            </i>
+                            <span class="">Máy cũ giá rẻ</span>
+                        </a>
+                    </li>
+                    <li class="has-list show-left">
+                        <a href="">
+                            <i>
+                                <img src="img/icon/icon-pc-96x96.png">
+                            </i>
+                            <span class="has-child">PC, Máy in</span>
+                        </a>
+                        <div class="navmwg limit-width">
+                            <div class="item-child no-child-final">
+                                <a href="">
+                                    <h3>Máy in</h3>
+                                </a>
+                            </div>
+                            <div class="item-child no-child-final">
+                                <a href="">
+                                    <h3>Mực in</h3>
+                                </a>
+                            </div>
+                            <div class="item-child no-child-final">
+                                <a href="">
+                                    <h3>Màn hình máy tính</h3>
+                                </a>
+                            </div>
+                            <div class="item-child no-child-final">
+                                <a href="">
+                                    <h3>Máy tính để bàn</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="show-left">
+                        <a href="">
+                            <span class="">Sim, Thẻ cào</span>
+                        </a>
+                    </li>
+                    <li class="has-list show-left">
+                        <a href="">
+                            <span class="has-child">Dịch vụ tiện ích</span>
+                        </a>
+                        <div class="navmwg ">
+                            <div class="item-child ">
+                                <strong>
+                                    Trả góp, điện nước, vé các loại
+                                </strong>
+                                <a href="">
+                                    <h3>Đóng tiền trả góp</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Đóng tiền điện</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Đóng tiền nước</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Đóng tiền vé tàu, xe, máy bay</h3>
+                                </a>
+                            </div>
+                            <div class="item-child ">
+                                <strong>
+                                    Internet, cước, truyền hình
+                                </strong>
+                                <a href="">
+                                    <h3>Đóng tiền net FPT</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Đóng tiền net, cáp VNPT</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Đóng cước điện thoại trả sau</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Lắp đặt internet, truyền hình</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Mua gói cước data 3G/4G</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Mua gói cước truyền hình</h3>
+                                </a>
+                            </div>
+                            <div class="item-child ">
+                                <strong>
+                                    Bảo hiểm, viện phí
+                                </strong>
+                                <a href="">
+                                    <h3>Mua bảo hiểm xe máy, ô tô</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Đóng tiền bảo hiểm</h3>
+                                </a>
+                                <a href="">
+                                    <h3>Đóng viện phí ĐH Y Dược TP. HCM</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="banner v2">
+
+        <div class="banner__img owl-carousel owl-theme owl-loaded owl-drag">
+            <div class="owl-stage-outer">
+                <div class="owl-stage"
+                    style="transform: translate3d(-2257px, 0px, 0px); transition: all 0.1s ease 0s; width: 7902px;">
+                    <div class="owl-item" style="width: 1128.8px;margin: auto;">
+                        <div class="item_banner" style="background-color:#C9252C">
+                            <a href=""><img style="cursor:pointer" src="img\1200-300-1200x300-6.png" width="1200" height="300"></a>
+                        </div>
+                    </div>
+                    <div class="owl-item" style="width: 1128.8px;">
+                        <div class="item_banner" style="background-color:#830000">
+                            <a href=""><img style="cursor:pointer"
+                                    src="img\1200-30002-1200x300-3.gif" alt="casio"
+                                    width="1200" height="300"></a>
+                        </div>
+                    </div>
+                    <div class="owl-item" style="width: 1128.8px;">
+                        <div class="item_banner" style="background-color:#830000">
+                            <a href=""><img style="cursor:pointer"
+                                    src="img\1200-300-1200x300-4.png" alt="citizen"
+                                    width="1200" height="300"></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        $('.banner v2').ready(function () { })
+        var owl = $(".owl-carousel");
+        owl.owlCarousel({
+            items: 1,
+            margin: 10,
+            loop: true,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 3000
+        });
+    </script>
+    <div class="quick-link v2" style="background-color: #f5f5f5;">
+        <a href="">
+            <img src="img\Top-img\Casio7264-b_39.jpg" alt="logo" width="72" height="16">
+        </a>
+        <a href="">
+            <img src="img\Top-img\ORIENTl-220x48.jpg" alt="logo" width="72" height="16">
+        </a>
+        <a href="">
+            <img src="img\Top-img\Citizen7264-b_41.jpg" alt="logo" width="72" height="16">
+        </a>
+        <a href="">
+            <img src="img\Top-img\Movado-l-220x48-1.jpg" alt="logo" width="72" height="16">
+        </a>
+        <a href="">
+            <img src="img\Top-img\logo-MK-lon-220x48.jpg" alt="logo" width="72" height="16">
+        </a>
+        <a href="">
+            <img src="img\Top-img\G-shock7264-b_36.jpg" alt="logo" width="72" height="16">
+        </a>
+        <a href="">
+            <img src="img\Top-img\Elio7264-b_49.jpg" alt="logo" width="72" height="16">
+        </a>
+        <a href="">
+            <img src="img\Top-img\MVW7264-b_58.jpg" alt="logo" width="72" height="16">
+        </a>
+        <a href="">
+            <img src="img\Top-img\MATHEYTISSOTl-220x48.jpg" alt="logo" width="72" height="16">
+        </a>
+        <a href="javascript:;" class="viewmore_manu">
+            Xem thêm (36)
+        </a>
+    </div>
+    <div class="menu-top v2" style="background-color: #f5f5f5">
+        <a href="" class="nav-item">
+            <div class="box-icon">
+                <img class=" lazyloaded" width="85" height="85" src="img\Top-img\icon-170-x-170-170x170.png">
+            </div>
+            <p>Sale Đến 70%</p>
+        </a>
+        <a href="" class="nav-item">
+            <div class="box-icon">
+                <img class=" lazyloaded" width="85" height="85" src="img\Top-img\new-128x128.png">
+            </div>
+            <p>Hàng mới về</p>
+        </a>
+        <a href="" class="nav-item">
+            <div class="box-icon">
+                <img class=" lazyloaded" width="85" height="85" src="img\Top-img\nam-170x170.png">
+            </div>
+            <p>Nam</p>
+        </a>
+        <a href="" class="nav-item">
+            <div class="box-icon">
+                <img class=" lazyloaded" width="85" height="85" src="img\Top-img\nu-170x170.png">
+            </div>
+            <p>Nữ</p>
+        </a>
+        <a href="" class="nav-item">
+            <div class="box-icon">
+                <img class=" lazyloaded" width="85" height="85" src="img\Top-img\tre-em-170x170.png">
+            </div>
+            <p>Trẻ em</p>
+        </a>
+        <a href="" class="nav-item">
+            <div class="box-icon">
+                <img class=" lazyloaded" width="85" height="85" src="img\Top-img\cap-doi-170x170.png">
+            </div>
+            <p>Cặp đôi</p>
+        </a>
+        <a href="" class="nav-item">
+            <div class="box-icon">
+                <img class=" lazyloaded" width="85" height="85" src="img\Top-img\cao-cap-170x170.png">
+            </div>
+            <p>Cao cấp</p>
+        </a>
+        <a href="" class="nav-item">
+            <div class="box-icon">
+                <img class=" lazyloaded" width="85" height="85"
+                    src="img\Top-img\icon-day-dong-ho-170x170.png">
+            </div>
+            <p>Dây đồng hồ</p>
+        </a>
+        <a href="" class="nav-item">
+            <div class="box-icon">
+                <img width="85" height="85" src="img\Top-img\icon-news-170x170.png">
+            </div>
+            <p>Tin tức</p>
+        </a>
+    </div>
+    <div class="deal v2">
+        <section style="background-color:#de3535;">
+            <div class="deal-main v2">
+                <div class="block__banner">
+                    <img class=" ls-is-cached lazyloaded" width="1200" height="90" src="img\Top-img-1\hotsale.png">
+                </div>
+                <h2 class="deal__title">
+                    HOT SALE
+                        <span> GIẢM TỚI 75%</span>
+                </h2>
+                <div class="listproduct listproduct-deal owl-carousel owl-theme owl-loaded owl-drag">
+
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage"
+                            style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 10517px;">
+                            <div class="owl-item active" style="width: 213.76px; margin-right: 10px;">
+                                <div class="item">
+                                    <a href="" class="remain_quantity main-contain">
+                                        <div class="item-label">
+                                        </div>
+                                        <div class="item-img">
+                                            <img class=" lazyloaded" width="210" height="210"
+                                                src="img\orient-faa02005d9-nam-co-tu-dong-0-600x600.jpg">
+                                        </div>
+                                        <h3>SRWATCH 30 mm Nữ SL10071.1302PL</h3>
+                                        <p class="item-txt-online">Online giá rẻ</p>
+                                        <div class="box-p">
+                                            <p class="price-old black">4.050.000₫</p>
+                                            <span class="percent">-70%</span>
+                                        </div>
+                                        <strong class="price">1.215.000₫</strong>
+
+                                    </a>
+
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 213.76px; margin-right: 10px;">
+                                <div class="item">
+                                    <a href="" class="remain_quantity main-contain">
+                                        <div class="item-label">
+                                        </div>
+                                        <div class="item-img">
+                                            <img class=" lazyloaded" width="210" height="210"
+                                                src="img\orient-faa02005d9-nam-co-tu-dong-0-600x600.jpg">
+                                        </div>
+                                        <h3>MATHEY TISSOT 23 mm Nữ D104PYI</h3>
+                                        <p class="item-txt-online">Online giá rẻ</p>
+                                        <div class="box-p">
+                                            <p class="price-old black">6.490.000₫</p>
+                                            <span class="percent">-70%</span>
+                                        </div>
+                                        <strong class="price">1.947.000₫</strong>
+                                        <div class="item-rating">
+                                            <p>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </p>
+                                            <p class="item-rating-total">1</p>
+                                        </div>
+
+                                        <span class="rq_count">
+                                            <i style="width:92%;"></i>
+                                            <b>Còn 46/50 suất</b>
+                                        </span>
+
+                                    </a>
+
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 213.76px; margin-right: 10px;">
+                                <div class="item">
+                                    <a href="">
+                                        <div class="item-label">
+                                        </div>
+                                        <div class="item-img">
+                                            <img width="210" height="210"
+                                                src="img\q-q-m206j007y-nam-1.-600x600.jpg">
+                                        </div>
+                                        <h3>NAKZEN 39 mm Nam SS5001G-1</h3>
+                                        <p class="item-txt-online">Online giá rẻ</p>
+                                        <div class="box-p">
+                                            <p class="price-old black">1.980.000₫</p>
+                                            <span class="percent">-70%</span>
+                                        </div>
+                                        <strong class="price">594.000₫</strong>
+                                        <div class="item-rating">
+                                            <p>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="icon-star-half"></i>
+                                                <i class="icon-star-dark"></i>
+                                            </p>
+                                            <p class="item-rating-total">2</p>
+                                        </div>
+
+                                        <span class="rq_count">
+                                            <i style="width:56%;"></i>
+                                            <b>Còn 28/50 suất</b>
+                                        </span>
+
+                                    </a>
+
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 213.76px; margin-right: 10px;">
+                                <div class="item">
+                                    <a href="" class="remain_quantity main-contain">
+                                        <div class="item-label">
+                                        </div>
+                                        <div class="item-img">
+                                            <img class=" lazyloaded" width="210" height="210"
+                                                src="img\Top-img-1\adriatica-a1065-5124q-nam-avatar-1-600x600.jpg">
+
+                                            <div class="lst-iclabel">
+                                                <img width="40" height="40" class="iconlabel lazyloaded"
+                                                    src="img\Top-img-1\thuy_sy_new.png">
+                                            </div>
+                                        </div>
+                                        <h3>ADRIATICA 43 mm Nam A1065.5124Q</h3>
+                                        <p class="item-txt-online">Online giá rẻ</p>
+                                        <div class="box-p">
+                                            <p class="price-old black">5.200.000₫</p>
+                                            <span class="percent">-70%</span>
+                                        </div>
+                                        <strong class="price">1.560.000₫</strong>
+                                        <div class="item-rating">
+                                            <p>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="icon-star-dark"></i>
+                                                <i class="icon-star-dark"></i>
+                                            </p>
+                                            <p class="item-rating-total">2</p>
+                                        </div>
+
+                                        <span class="rq_count">
+                                            <i style="width:76%;"></i>
+                                            <b>Còn 38/50 suất</b>
+                                        </span>
+
+                                    </a>
+
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 213.76px; margin-right: 10px;">
+                                <div class="item">
+                                    <a href="" class="remain_quantity main-contain">
+                                        <div class="item-label">
+                                        </div>
+                                        <div class="item-img">
+                                            <img class=" lazyloaded" width="210" height="210"
+                                                src="img\Top-img-1\adriatica-a3436-9113q-nu-1-600x600.jpg">
+
+                                            <div class="lst-iclabel">
+                                                <img width="40" height="40" class="iconlabel lazyloaded"
+                                                    src="img\Top-img-1\thuy_sy_new.png">
+                                            </div>
+                                        </div>
+                                        <h3>ADRIATICA 25 mm Nữ A3436.9113Q</h3>
+                                        <p class="item-txt-online">Online giá rẻ</p>
+                                        <div class="box-p">
+                                            <p class="price-old black">4.950.000₫</p>
+                                            <span class="percent">-70%</span>
+                                        </div>
+                                        <strong class="price">1.485.000₫</strong>
+                                        <div class="item-rating">
+                                            <p>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="icon-star-dark"></i>
+                                            </p>
+                                            <p class="item-rating-total">6</p>
+                                        </div>
+
+                                        <span class="rq_count">
+                                            <i style="width:96%;"></i>
+                                            <b>Còn 48/50 suất</b>
+                                        </span>
+
+                                    </a>
+
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 213.76px; margin-right: 10px;">
+                                <div class="item">
+                                    <a href="" class="remain_quantity main-contain">
+                                        <div class="item-label">
+                                        </div>
+                                        <div class="item-img">
+                                            <img class=" ls-is-cached lazyloaded" alt="KORLEX 33 mm Nữ KS002-03"
+                                                width="210" height="210"
+                                                src="img\Top-img-1\korlex-ks002-03-nu-1-600x600.jpg">
+
+                                            <div class="lst-iclabel">
+                                                <img width="40" height="40" class="iconlabel ls-is-cached lazyloaded"
+                                                    src="img\Top-img-1\may_nhat_new.png">
+                                            </div>
+                                        </div>
+                                        <h3>KORLEX 33 mm Nữ KS002-03</h3>
+                                        <p class="item-txt-online">Online giá rẻ</p>
+                                        <div class="box-p">
+                                            <p class="price-old black">2.800.000₫</p>
+                                            <span class="percent">-75%</span>
+                                        </div>
+                                        <strong class="price">700.000₫</strong>
+                                        <div class="item-rating">
+                                            <p>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="icon-star-dark"></i>
+                                            </p>
+                                            <p class="item-rating-total">4</p>
+                                        </div>
+
+                                        <span class="rq_count">
+                                            <i style="width:96%;"></i>
+                                            <b>Còn 48/50 suất</b>
+                                        </span>
+
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span
+                                aria-label="Previous">‹</span></button><button type="button" role="presentation"
+                            class="owl-next"><span aria-label="Next">›</span></button></div>
+                    <div class="owl-dots disabled"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script>
+        $('.deal v2').ready(function () { })
+        // Owl Carousel
+        var owl = $(".owl-carousel");
+        owl.owlCarousel({
+            items: 5,
+            margin: 10,
+            loop: true,
+            nav: true,
+
+
+        });
+
+    </script>
+    <section>
+        <div class="watch-type orient">
+            <div class="bgw-type">
+                <img class=" lazyloaded" width="340" height="428"
+                    src="img\img-casio\casio.png">
+            </div>
+            <aside>
+                <div class="box-top clearfix">
+                    <div class="gradient">
+                        <div class="tabs-type">
+                            <span class="tab-link active-tab current">Nam</span>
+                            <span class="tab-link ">Nữ</span>
+                            <span class="tab-link ">Đồng hồ điện tử</span>
+                            <span class="tab-link ">Baby-G</span>
+                            <span class="tab-link ">G-Shock</span>
+                            <span class="tab-link ">Edifice</span>
+                            <span class="tab-link">Sheen</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="prt-watch">
+
+                    <div class="slider-wrap">
+                        <div class="listproduct owl-carousel owl-theme slide-dongho owl-loaded owl-drag">
+                            <div class="owl-stage-outer">
+                                <div class="owl-stage"
+                                    style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 2561px;">
+                                    <div class="owl-item active" style="width: 170.675px;">
+                                        <li class=" item">
+                                            <a href="" class="main-contain">
+                                                <div class="item-img">
+                                                    <img class=" ls-is-cached lazyloaded"
+                                                        src="img\img-casio\casio.jpg">
+                                                </div>
+                                                <strong>
+                                                    CASIO
+                                                </strong>
+                                                <h3>
+                                                    AE-1200WHD-1AVDF </h3>
+
+                                                <div class="box-p">
+                                                    <p class="price-old black">1.373.000₫</p>
+                                                    <span class="percent">-20%</span>
+                                                </div>
+                                                <strong class="price">1.098.000₫</strong>
+                                            </a>
+
+                                        </li>
+                                    </div>
+                                    <div class="owl-item active" style="width: 170.675px;">
+                                        <li class=" item">
+                                            <a href="" class="main-contain">
+                                                <div class="item-img">
+                                                    <img class=" ls-is-cached lazyloaded"
+                                                        src="img\img-casio\casio1.jpg">
+                                                </div>
+                                                <strong>
+                                                    G-SHOCK
+                                                </strong>
+                                                <h3>
+                                                    GM-2100-1ADR </h3>
+
+                                                <div class="box-p">
+                                                    <p class="price-old black">7.254.000₫</p>
+                                                    <span class="percent">-20%</span>
+                                                </div>
+                                                <strong class="price">6.165.000₫</strong>
+                                            </a>
+
+                                        </li>
+                                    </div>
+                                    <div class="owl-item active" style="width: 170.675px;">
+                                        <li class=" item">
+                                            <a href="" class="main-contain">
+                                                <div class="item-img">
+                                                    <img class=" ls-is-cached lazyloaded"
+                                                        alt="ORIENT Star 38.7 mm Nam RE-AU0002S00B"
+                                                        src="img\img-casio\casio2.jpg">
+                                                </div>
+                                                <strong>
+                                                    CASIO
+                                                </strong>
+                                                <h3>
+                                                    A168WER-2ADF </h3>
+
+                                                <div class="box-p">
+                                                    <p class="price-old black">1.633.000₫</p>
+                                                    <span class="percent">-15%</span>
+                                                </div>
+                                                <strong class="price">1.388.000₫</strong>
+                                            </a>
+
+                                        </li>
+                                    </div>
+                                    <div class="owl-item active" style="width: 170.675px;">
+                                        <li class=" item">
+                                            <a href="" class="main-contain">
+                                                <div class="item-img">
+                                                    <img class=" ls-is-cached lazyloaded"
+                                                        alt="ORIENT SK 41.7 mm Nam RA-AA0B04R19B"
+                                                        src="img\img-casio\casio4.jpg">
+                                                </div>
+                                                <strong>
+                                                    G-SHOCK
+                                                </strong>
+                                                <h3>
+                                                    GM-S2100-3ADR </h3>
+
+                                                <div class="box-p">
+                                                    <p class="price-old black">6.815.000₫</p>
+                                                    <span class="percent">-20%</span>
+                                                </div>
+                                                <strong class="price">5.452.000₫</strong>
+                                            </a>
+
+                                        </li>
+                                    </div>
+                                    <div class="owl-item active" style="width: 170.675px;">
+                                        <li class=" item">
+                                            <a href="" class="main-contain">
+                                                <div class="item-img">
+                                                    <img class=" ls-is-cached lazyloaded"
+                                                        src="img\img-casio\casio5.jpg">
+                                                </div>
+                                                <strong>
+                                                    EDIFIECE CASIO
+                                                </strong>
+                                                <h3>
+                                                    ECB-S100HG-1ADF </h3>
+                                                    <div class="box-p">
+                                                        <p class="price-old black">11.228.000₫</p>
+                                                        <span class="percent">-20%</span>
+                                                    </div>
+
+                                                <strong class="price">8.982.000₫</strong>
+                                            </a>
+
+                                        </li>
+                                    </div>
+                                    <div class="owl-item" style="width: 170.675px;">
+                                        <li class=" item">
+                                            <a href="" class="main-contain">
+                                                <div class="item-img">
+                                                    <img class=" ls-is-cached lazyloaded"
+                                                        src="img\img-casio\casio6.jpg">
+                                                </div>
+                                                <strong>
+                                                    CASIO
+                                                </strong>
+                                                <h3>
+                                                    MTS-100L-1AVDF </h3>
+
+                                                <div class="box-p">
+                                                    <p class="price-old black">2.618.000₫</p>
+                                                    <span class="percent">-20%</span>
+                                                </div>
+                                                <strong class="price">2.094.000₫</strong>
+                                            </a>
+
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="" class="see-all">Xem tất cả <span>Đồng hồ Casio</span></a>
+                        <a href="" class="side-img-link"></a>
+                    </div>
+
+                </div>
+            </aside>
+        </div>
+    </section>
+    <section>
+        <div class="watch-type orient">
+            <div class="bgw-type">
+                <img class=" lazyloaded" width="340" height="428"
+                    src="img\Top-img-1\orient.png">
+            </div>
+            <aside>
+                <div class="box-top clearfix">
+                    <div class="gradient">
+                        <div class="tabs-type">
+                            <span class="tab-link active-tab current">Nổi bật</span>
+                            <span class="tab-link ">Nam</span>
+                            <span class="tab-link ">Nữ</span>
+                            <span class="tab-link ">Cơ lộ máy</span>
+                            <span class="tab-link ">Thép không gỉ</span>
+                            <span class="tab-link ">Dây da</span>
+                            <span class="tab-link">Orient Star</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="prt-watch">
+
+                    <div class="slider-wrap">
+                        <div class="listproduct owl-carousel owl-theme slide-dongho owl-loaded owl-drag">
+                            <div class="owl-stage-outer">
+                                <div class="owl-stage"
+                                    style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 2561px;">
+                                    <div class="owl-item active" style="width: 170.675px;">
+                                        <li class=" item">
+                                            <a href="" class="main-contain">
+                                                <div class="item-img">
+                                                    <img class=" ls-is-cached lazyloaded"
+                                                        src="img\Top-img-1\orient-ra-kb0005e00b-nu-thumb-600x600.jpg">
+                                                </div>
+                                                <strong>
+                                                    ORIENT
+                                                </strong>
+                                                <h3>
+                                                    RA-KB0005E00B </h3>
+
+                                                <div class="box-p">
+                                                    <p class="price-old black">8.050.000₫</p>
+                                                    <span class="percent">-20%</span>
+                                                </div>
+                                                <strong class="price">6.440.000₫</strong>
+                                            </a>
+
+                                        </li>
+                                    </div>
+                                    <div class="owl-item active" style="width: 170.675px;">
+                                        <li class=" item">
+                                            <a href="" class="main-contain">
+                                                <div class="item-img">
+                                                    <img class=" ls-is-cached lazyloaded"
+                                                        src="img\Top-img-1\orient-ra-ak0505l10b-nam-243620-043652-600x600.jpg">
+                                                </div>
+                                                <strong>
+                                                    ORIENT
+                                                </strong>
+                                                <h3>
+                                                    RA-AK0505L10B </h3>
+
+                                                <div class="box-p">
+                                                    <p class="price-old black">5.420.000₫</p>
+                                                    <span class="percent">-20%</span>
+                                                </div>
+                                                <strong class="price">4.336.000₫</strong>
+                                            </a>
+
+                                        </li>
+                                    </div>
+                                    <div class="owl-item active" style="width: 170.675px;">
+                                        <li class=" item">
+                                            <a href="" class="main-contain">
+                                                <div class="item-img">
+                                                    <img class=" ls-is-cached lazyloaded"
+                                                        alt="ORIENT Star 38.7 mm Nam RE-AU0002S00B"
+                                                        src="img\Top-img-1\ava-600x600.jpg">
+                                                </div>
+                                                <strong>
+                                                    ORIENT
+                                                </strong>
+                                                <h3>
+                                                    RE-AU0002S00B </h3>
+
+                                                <div class="box-p">
+                                                    <p class="price-old black">21.700.000₫</p>
+                                                    <span class="percent">-50%</span>
+                                                </div>
+                                                <strong class="price">10.850.000₫</strong>
+                                            </a>
+
+                                        </li>
+                                    </div>
+                                    <div class="owl-item active" style="width: 170.675px;">
+                                        <li class=" item">
+                                            <a href="" class="main-contain">
+                                                <div class="item-img">
+                                                    <img class=" ls-is-cached lazyloaded"
+                                                        alt="ORIENT SK 41.7 mm Nam RA-AA0B04R19B"
+                                                        src="img\Top-img-1\orient-ra-aa0b04r19b-thumb-1-600x600.jpg">
+                                                </div>
+                                                <strong>
+                                                    ORIENT
+                                                </strong>
+                                                <h3>
+                                                    RA-AA0B04R19B </h3>
+
+                                                <div class="box-p">
+                                                    <p class="price-old black">8.800.000₫</p>
+                                                    <span class="percent">-20%</span>
+                                                </div>
+                                                <strong class="price">7.040.000₫</strong>
+                                            </a>
+
+                                        </li>
+                                    </div>
+                                    <div class="owl-item active" style="width: 170.675px;">
+                                        <li class=" item">
+                                            <a href="" class="main-contain">
+                                                <div class="item-img">
+                                                    <img class=" ls-is-cached lazyloaded"
+                                                        src="img\Top-img-1\orient-star-re-av0b01s00b-nam-060422-092808-600x600.jpg">
+                                                </div>
+                                                <strong>
+                                                    ORIENT
+                                                </strong>
+                                                <h3>
+                                                    RE-AV0B01S00B </h3>
+
+                                                <strong class="price">25.750.000₫</strong>
+                                            </a>
+
+                                        </li>
+                                    </div>
+                                    <div class="owl-item" style="width: 170.675px;">
+                                        <li class=" item">
+                                            <a href="" class="main-contain">
+                                                <div class="item-img">
+                                                    <img class=" ls-is-cached lazyloaded"
+                                                        src="img\Top-img-1\product-267741-120522-101225-600x600.jpg">
+                                                </div>
+                                                <strong>
+                                                    ORIENT
+                                                </strong>
+                                                <h3>
+                                                    RA-AC0F09L10B </h3>
+
+                                                <div class="box-p">
+                                                    <p class="price-old black">7.850.000₫</p>
+                                                    <span class="percent">-20%</span>
+                                                </div>
+                                                <strong class="price">6.280.000₫</strong>
+                                            </a>
+
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="" class="see-all">Xem tất cả <span>Đồng hồ Orient</span></a>
+                        <a href="" class="side-img-link"></a>
+                    </div>
+
+                </div>
+            </aside>
+        </div>
+    </section>
+    <section>
+        <div class="collection">
+            <span>
+                Bộ sưu tập
+            </span>
+
+            <ul class="owl-carousel owl-theme slide-collection bst-watch owl-loaded owl-drag">
+                <div class="owl-stage-outer">
+                    <div class="owl-stage"
+                        style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 2068px;">
+                        <div class="owl-item active" style="width: 248.5px; margin-right: 10px;">
+                            <li>
+                                <a><img style="cursor:pointer"
+                                        src="img/Top-img-1/420-x-260-viwat-420x260.jpg" alt="BST MVW STAR"
+                                        width="420" height="260"></a>
+                            </li>
+                        </div>
+                        <div class="owl-item active" style="width: 248.5px; margin-right: 10px;">
+                            <li>
+                                <a
+                                    href=""><img
+                                        style="cursor:pointer"
+                                        src="img/Top-img-1/CITIZEN-420-x-260-420x260.png" alt="Citizen C7"
+                                        width="420" height="260"></a>
+                            </li>
+                        </div>
+                        <div class="owl-item active" style="width: 248.5px; margin-right: 10px;">
+                            <li>
+                                <a href=""><img style="cursor:pointer"
+                                        src="img/Top-img-1/cover-420-x-260-420x260.png" alt="BST MỚI COVER"
+                                        width="420" height="260"></a>
+                            </li>
+                        </div>
+                        <div class="owl-item active" style="width: 248.5px; margin-right: 10px;">
+                            <li>
+                                <a href=""><img style="cursor:pointer"
+                                        src="img/Top-img-1/casio-420x260-2.png" alt="BST MỚI  CASIO PROTREK"
+                                        width="420" height="260"></a>
+                            </li>
+                        </div>
+                        <div class="owl-item" style="width: 248.5px; margin-right: 10px;">
+                            <li>
+                                <a href=""><img style="cursor:pointer"
+                                        src="img/Top-img-1/420-x-260-420x260.png" alt="ĐỒNG HỒ CAO CẤP"
+                                        width="420" height="260"></a>
+                            </li>
+                        </div>
+                        <div class="owl-item" style="width: 248.5px; margin-right: 10px;">
+                            <li>
+                                <a href=""><img style="cursor:pointer"
+                                        src="img/Top-img-1/orrient-420x260.png" alt="BST Orient SK" width="420"
+                                        height="260"></a>
+                            </li>
+                        </div>
+                        <div class="owl-item" style="width: 248.5px; margin-right: 10px;">
+                            <li>
+                                <a
+                                    href=""><img
+                                        style="cursor:pointer" src="img/Top-img-1/03-420x260.png" alt="ELLE"
+                                        width="420" height="260"></a>
+                            </li>
+                        </div>
+                        <div class="owl-item" style="width: 248.5px; margin-right: 10px;">
+                            <li>
+                                <a href=""><img style="cursor:pointer"
+                                        src="img/Top-img-1/01-420x260.png" alt="BST orient Star" width="420"
+                                        height="260"></a>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span
+                            aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span
+                            aria-label="Next">›</span></button></div>
+                <div class="owl-dots disabled"></div>
+            </ul>
+            </div>
+
+        <div class="application">
+            <div class="col1">
+                <div class="ttl-main">
+                    <h4 class="title-layout">VIDEO</h4>
+                    <a href="https://www.youtube.com/playlist?list=UURjKJpxcPbeW3stQBUKLovQ" class="readmore-txt blue" target="_blank">Xem thêm</a>
+                </div>
+                <div class="col1__ct">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/pQlCOhDxII4?list=UURjKJpxcPbeW3stQBUKLovQ&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.thegioididong.com" title="7 mẫu đồng hồ NÊN MUA cho Giáng Sinh | Thế Giới Đồng Hồ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-gtm-yt-inspected-1070012_61="true" id="633526964" data-gtm-yt-inspected-1070012_79="true" data-gtm-yt-inspected-1070012_187="true" data-gtm-yt-inspected-7="true"></iframe>
+                </div>
+            </div>
+            
+        <div class="col2">
+            <div class="ttl-main">
+                <h4 class="title-layout">TIN TỨC</h4>
+                <a href="" class="readmore-txt blue">Xem thêm</a>
+            </div>
+            <div class="col2__ct">
+                <div class="col2-simple">
+                        <a href="" class="spl-item">
+                            <div class="spl-item__img">
+                                <img class=" lazyloaded" src="img/Top-img-1/gt_800x450-200x200.jpg">
+                            </div>
+                            <div class="spl-item__content">
+                                <p class="spl-item-title spl-item-title__news">
+                                    Trên tay Huawei Watch GT 3 SE: Thiết kế bền bỉ, thời trang, nhiều tính năng chăm sóc sức khỏe
+                                </p>
+                                <p class="spl-item-hour">17/11</p>
+                            </div>
+                        </a>
+                        <a href="" class="spl-item">
+                            <div class="spl-item__img">
+                                <img class=" lazyloaded" src="img/Top-img-1/elio-1_1280x720-200x200.jpg">
+                            </div>
+                            <div class="spl-item__content">
+                                <p class="spl-item-title spl-item-title__news">
+                                    Black Friday ngập tràn ưu đãi: Đồng hồ thời trang giảm sốc đến 50%, giá quá ngon
+                                </p>
+                                <p class="spl-item-hour">17/11</p>
+                            </div>
+                        </a>
+                        <a href="" class="spl-item">
+                            <div class="spl-item__img">
+                                <img class=" lazyloaded" src="img/Top-img-1/24h-cong-nghe-hot-16-11-2022_1280x720-200x200.jpg">
+                            </div>
+                            <div class="spl-item__content">
+                                <p class="spl-item-title spl-item-title__news">
+                                    24h công nghệ có gì HOT 16/11: Snapdragon 8 Gen 2 chính thức được công bố, Amazfit ra mắt đồng hồ Pop 2
+                                </p>
+                                <p class="spl-item-hour">16/11</p>
+                            </div>
+                        </a>
+                        <a href="" class="spl-item">
+                            <div class="spl-item__img">
+                                <img class=" lazyloaded" src="img/Top-img-1/thumb_1280x720-200x200.jpg">
+                            </div>
+                            <div class="spl-item__content">
+                                <p class="spl-item-title spl-item-title__news">
+                                    Amazfit ra mắt đồng hồ Pop 2: Màn hình AMOLED, hơn 100 bài tập thể thao, pin 'trâu'
+                                </p>
+                                <p class="spl-item-hour">16/11</p>
+                            </div>
+                        </a>
+                        <a href="" class="spl-item">
+                            <div class="spl-item__img">
+                                <img class=" lazyloaded" src="img/Top-img-1/garminbounce_3_1280x720-200x200.jpg">
+                            </div>
+                            <div class="spl-item__content">
+                                <p class="spl-item-title spl-item-title__news">
+                                    Mẫu đồng hồ thông minh cho trẻ em Garmin Bounce ra mắt, tích hợp GPS và 4G
+                                </p>
+                                <p class="spl-item-hour">16/11</p>
+                            </div>
+                        </a>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+    <script>
+        $('.slider-wrap').ready(function () { })
+        // Owl Carousel
+        var owl = $(".owl-carousel");
+        owl.owlCarousel({
+            items: 5,
+            margin: 10,
+            loop: true,
+            nav: true,
+
+
+        });
+
+    </script>
+    <footer class="footer" style="margin-top: 10px;">
+        
+        <div id="showPromoteBHX">
+            <form id="form-zone-bhx" class="">
+                <div class="zone-new-bhx">
+                    <div class="productbox-bhxapi">
+                        <div class="title">
+                            <span class="dotnew"><span class="animation"></span></span>
+                            <span class="text">
+                                <a href="">
+                                    <img src="img/logoBHX.png">
+                                </a>
+                                <span>FREESHIP cho đơn hàng từ 300.000đ</span>
+                            </span>
+                            <span class="note">
+                                (Đây là khuyến mãi của website cùng tập đoàn MWG)
+                            </span>
+                            <span class="close">
+                                <a href="">
+                                    <span class="showtext"> Xem thêm <b>10.000+</b><br> sản phẩm khuyến mãi</span>
+                                    <img width="30" height="30" src="img/ArrowCircleRight.png">
+                                </a>
+                            </span>
+                        </div>
+                        <div class="voucherproduct-bhx">
+                            <div class="_voucher">
+                                <div class="voucher-title">Tặng thêm mã giảm 10%</div>
+                                <div class="voucher-content">
+                                    <div class="input-email">
+                                        <input name="email" placeholder="Nhập email*">
+                                    </div>
+                                    <div class="input-phone">
+                                        <input name="phone" placeholder="Nhập SĐT*">
+                                    </div>
+                                    <button type="button" class="submit" disabled="" style="display: none;">NHẬN
+                                        MÃ</button>
+                                    <div class="dcap"><button type="button" class="submit" disabled="">NHẬN MÃ</button>
+                                    </div>
+                                </div>
+                                <div class="voucher-error hidden"></div>
+                                <div class="voucher-note">*Áp dụng cho khách lần đầu mua hàng tại BachhoaXANH</div>
+                            </div>
+                            <div class="_product">
+                                <aside class="prmotebanner-bhx-footer slider-banner owl-carousel owl-loaded owl-drag">
+                                    <div class="owl-stage-outer">
+                                        <div class="owl-stage"
+                                            style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 983px;">
+                                            <div class="owl-item active" style="width: 196.6px;">
+                                                <div class="productbox-bhxapi-item">
+                                                    <a href="">
+                                                        <img src="img\bhx\14adbbd7dc0b05555c1a-280x440.jpg"
+                                                            width="280" height="440">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="owl-item active" style="width: 196.6px;">
+                                                <div class="productbox-bhxapi-item">
+                                                    <a href="">
+                                                        <img src="img\bhx\BOX-TRUYỀN-THÔNG-280x440-TGDDxBHX--1--280x440.jpg"
+                                                            width="280" height="440">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="owl-item active" style="width: 196.6px;">
+                                                <div class="productbox-bhxapi-item">
+                                                    <a href="">
+                                                        <img src="img\bhx\BOX-TRUYỀN-THÔNG-280x440-TGDDxBHX-280x440-1.jpg" width="280"
+                                                            height="440">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="owl-item active" style="width: 196.6px;">
+                                                <div class="productbox-bhxapi-item">
+                                                    <a href="">
+                                                        <img src="img\bhx\BOX-TRUYỀN-THÔNG-280x440-TGDDxBHX-280x440-4.jpg"
+                                                            width="280" height="440">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="owl-item active" style="width: 196.6px;">
+                                                <div class="productbox-bhxapi-item">
+                                                    <a href="">
+                                                        <img style="cursor:pointer"
+                                                            src="img\bhx\BOX-TRUYỀN-THÔNG-280x440-TGDDxBHX-280x440-5.jpg"
+                                                            width="280" height="440">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </aside>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="footer" style="margin-top: 10px;">
+        <section class="clearfix footer__top">
+            <div class="footer__col">
+                <ul class="f-listmenu">
+                    <li><a rel="nofollow" href="">Tích điểm Quà tặng VIP</a></li>
+                    <li><a rel="nofollow" href="">Lịch sử mua hàng</a></li>
+                    <li><a rel="nofollow" href="">Tìm hiểu về mua trả góp</a></li>
+                    <li><a rel="nofollow" href="">Chính sách bảo hành</a></li>
+                    <li><a href="">Xem thêm <i class="fa-solid fa-sort-down"></i></a></li>
+    
+                </ul>
+            </div>
+            <div class="footer__col">
+                <ul class="f-listmenu">
+                    <li><a rel="nofollow" href="">Giới thiệu công ty (MWG.vn)</a></li>
+                    <li><a rel="nofollow" href="">Tuyển dụng</a></li>
+                    <li><a rel="nofollow" href="">Gửi góp ý, khiếu nại</a></li>
+                    <li><a rel="nofollow" href="">Tìm siêu thị (3.372 shop)</a></li>
+                    <li><a rel="nofollow" class="">Xem bản mobile</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <div class="f-listtel">
+                    <p class="f-listtel__title">
+                        <strong>Tổng đài hỗ trợ</strong>
+                        (Miễn phí gọi)
+                    </p>
+                    <p class="f-listtel__content">
+                        <span>Gọi mua:</span> <a href="tel:18001060">1800.1060</a> (7:30 - 22:00)
+                    </p>
+                    <p class="f-listtel__content">
+                        <span>Kỹ thuật:</span> <a href="tel:18001763">1800.1763</a> (7:30 -
+                        22:00)
+                    </p>
+                    <p class="f-listtel__content">
+                        <span>Khiếu nại:</span> <a href="tel:18001062">1800.1062</a> (8:00 -
+                        21:30)
+                    </p>
+                    <p class="f-listtel__content">
+                        <span>Bảo hành:</span> <a href="tel:18001064">1800.1064</a> (8:00 -
+                        21:00)
+                    </p>
+                </div>
+            </div>
+            <div class="footer__col">
+                <div class="f-social">
+                    <a href="" class="link-fb">
+                        <i class="fa-brands fa-facebook"></i>
+                        3783.6k Fan
+                    </a>
+                    <a href="" class="link-ytb">
+                        <i class="fa-brands fa-youtube"></i>
+                        854k Đăng ký
+                    </a>
+                </div>
+            </div>
+        </section>
+        <div class="copyright">
+            <section>
+                <p>
+                </p>
+            </section>
+        </div>
+    </footer>
+</body>
+
+</html>
